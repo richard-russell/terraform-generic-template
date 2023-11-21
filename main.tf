@@ -7,7 +7,7 @@ terraform {
   # Backend on Terraform Cloud or Terraform Enterprise
   # comment the cloud{} block to work with local state.
   cloud {
-    organization = "your-tfc-org"     //update me
+    organization = "richard-russell-org"
     hostname     = "app.terraform.io" # Optional; defaults to app.terraform.io. Update with TFE hostname if required
     workspaces {
       name = "your-workspace" //update me
